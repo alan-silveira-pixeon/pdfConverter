@@ -1,0 +1,24 @@
+# Arquivos de desenvolvimento
+src/
+vite.config.js
+.git/
+.gitignore
+
+# Node modules será instalado pela Vercel
+node_modules/
+
+# Arquivos de teste e build local
+dist/
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local

@@ -1,0 +1,26 @@
+{
+  "name": "pdf-to-image-api",
+  "version": "1.0.0",
+  "description": "API para converter PDF em imagem usando Node.js",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "vite-node src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": ["pdf", "image", "converter", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pdf-to-img": "^4.1.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-node": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
